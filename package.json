@@ -1,13 +1,14 @@
 {
   "name": "tiny-pow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tiny proof of work library for browser",
   "scripts": {
     "build": "run-s minify build-module",
     "minify": "uglifyjs --compress --mangle -o tiny-pow.min.js tiny-pow.js",
     "build-module": "node build-es6-module"
   },
-  "main": "tiny-pow.module.min.js",
+  "main": "tiny-pow.min.js",
+  "unpkg": "tiny-pow.module.min.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rundik/tiny-pow.git"
