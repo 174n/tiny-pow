@@ -1,7 +1,7 @@
 {
   "name": "tiny-pow",
-  "version": "1.0.3",
-  "description": "Tiny proof of work library for browser",
+  "version": "1.0.4",
+  "description": "Tiny proof of work library for modern browsers",
   "scripts": {
     "build": "run-s minify build-module",
     "minify": "uglifyjs --compress --mangle -o tiny-pow.min.js tiny-pow.js",

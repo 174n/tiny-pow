@@ -1,4 +1,4 @@
-### ```⚙️ tiny-pow - Tiny proof of work for a modern browsers```
+### ```⚙️ tiny-pow - Tiny proof of work for modern browsers```
 
 [![last commit](https://img.shields.io/github/last-commit/Rundik/tiny-pow.svg)](https://github.com/Rundik/tiny-pow/commits/master)
 [![bundle size](https://img.shields.io/github/size/Rundik/tiny-pow/tiny-pow.min.js)](https://github.com/Rundik/tiny-pow/blob/master/tiny-pow.min.js)
