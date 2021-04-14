@@ -1,0 +1,27 @@
+{
+  "name": "tiny-pow",
+  "version": "1.0.0",
+  "description": "Tiny proof of work library for browser",
+  "scripts": {
+    "build": "uglifyjs --compress --mangle -o tiny-pow.min.js tiny-pow.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rundik/tiny-pow.git"
+  },
+  "author": "Ivan Alexandrov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rundik/tiny-pow/issues"
+  },
+  "keywords": [
+    "pow",
+    "proof of work",
+    "sha256",
+    "browser"
+  ],
+  "homepage": "https://github.com/Rundik/tiny-pow#readme",
+  "devDependencies": {
+    "uglify-js": "^3.13.4"
+  }
+}
