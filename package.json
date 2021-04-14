@@ -1,13 +1,13 @@
 {
   "name": "tiny-pow",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tiny proof of work library for browser",
   "scripts": {
     "build": "run-s minify build-module",
     "minify": "uglifyjs --compress --mangle -o tiny-pow.min.js tiny-pow.js",
     "build-module": "node build-es6-module"
   },
-  "main": "tiny-pow.min.js",
+  "main": "tiny-pow.module.min.js",
   "unpkg": "tiny-pow.module.min.js",
   "repository": {
     "type": "git",
